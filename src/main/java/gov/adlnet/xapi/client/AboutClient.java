@@ -19,6 +19,7 @@ public class AboutClient extends BaseClient {
     public AboutClient(URL uri, String username, String password)
             throws MalformedURLException {
         super(uri, username, password);
+        //test
     }
 
     public About getAbout()
